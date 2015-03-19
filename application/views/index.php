@@ -5,23 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>KRS Connect</title>
-	<!-- core CSS -->
-    <link href="<?php echo base_url()?>application/views/libs/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>application/views/libs/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>application/views/libs/css/animate.min.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>application/views/libs/css/prettyPhoto.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>application/views/libs/css/main.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>application/views/libs/css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="<?php echo base_url()?>application/views/libs/js/html5shiv.js"></script>
-    <script src="<?php echo base_url()?>application/views/libs/js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="<?php echo base_url()?>application/views/libs/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url()?>application/views/libs/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url()?>application/views/libs/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url()?>application/views/libs/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>application/views/libs/images/ico/apple-touch-icon-57-precomposed.png">
+    <title>Home | KRSConnect</title>
+    
+    <?php $this->load->view('elements/css-icon');?>
+    
 </head><!--/head-->
 
 <body class="homepage">
@@ -68,21 +55,11 @@
 				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-item.html">Blog Single</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="shortcodes.html">Shortcodes</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="blog.html">Blog</a></li> 
-                        <li><a href="contact-us.html">Contact</a></li>                        
+                        <li class="active"><a href="<?php echo site_url();?>">Home</a></li>
+                        <li><a href="<?php echo site_url();?>/loadViewsController/loadAboutus">About Us</a></li>
+                        <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Services</a></li>
+                        <li><a href="<?php echo site_url();?>/loadViewsController/loadBlog">Blog</a></li> 
+                        <li><a href="<?php echo site_url();?>/loadViewsController/loadContact">Contact</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -688,94 +665,11 @@
         </div><!--/.container-->    
     </section><!--/#conatcat-info-->
 
-    <section id="bottom">
-        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Company</h3>
-                        <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Meet the team</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+    <?php $this->load->view('elements/bottom');?>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Support</h3>
-                        <ul>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Refund policy</a></li>
-                            <li><a href="#">Ticket system</a></li>
-                            <li><a href="#">Billing system</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+    <?php $this->load->view('elements/footer');?>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Developers</h3>
-                        <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Our Partners</h3>
-                        <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-            </div>
-        </div>
-    </section><!--/#bottom-->
-
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer><!--/#footer-->
-
-    <script src="<?php echo base_url()?>application/views/libs/js/jquery.js"></script>
-    <script src="<?php echo base_url()?>application/views/libs/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url()?>application/views/libs/js/jquery.prettyPhoto.js"></script>
-    <script src="<?php echo base_url()?>application/views/libs/js/main.js"></script>
-    <script src="<?php echo base_url()?>application/views/libs/js/wow.min.js"></script>
+    <?php $this->load->view('elements/scripts');?>
+    
 </body>
 </html>
