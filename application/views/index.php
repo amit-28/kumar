@@ -7,21 +7,21 @@
     <meta name="author" content="">
     <title>KRS Connect</title>
 	<!-- core CSS -->
-    <link href="libs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>application/views/libs/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url()?>application/views/libs/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo base_url()?>application/views/libs/css/animate.min.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>index.php/libs/css/prettyPhoto.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>index.php/libs/css/main.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>index.php/libs/css/responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>application/views/libs/css/prettyPhoto.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>application/views/libs/css/main.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>application/views/libs/css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
-    <script src="<?php echo base_url()?>libs/js/html5shiv.js"></script>
-    <script src="<?php echo base_url()?>libs/js/respond.min.js"></script>
+    <script src="<?php echo base_url()?>application/views/libs/js/html5shiv.js"></script>
+    <script src="<?php echo base_url()?>application/views/libs/js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="<?php echo base_url()?>libs/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="libs/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="libs/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="libs/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="libs/images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="<?php echo base_url()?>application/views/libs/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url()?>application/views/libs/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url()?>application/views/libs/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url()?>application/views/libs/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>application/views/libs/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
 <body class="homepage">
@@ -63,7 +63,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src="<?php echo base_url()?>application/views/libs/images/logo.png" alt="logo"></a>
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
@@ -99,7 +99,7 @@
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+                <div class="item active" style="background-image: url(<?php echo base_url()?>application/views/libs/images/slider/bg1.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -112,7 +112,7 @@
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img1.png" class="img-responsive">
+                                    <img src="<?php echo base_url()?>application/views/libs/images/slider/img1.png" class="img-responsive">
                                 </div>
                             </div>
 
@@ -120,7 +120,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+                <div class="item" style="background-image: url(<?php echo base_url()?>application/views/libs/images/slider/bg2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -133,7 +133,7 @@
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img2.png" class="img-responsive">
+                                    <img src="<?php echo base_url()?>application/views/libs/images/slider/img2.png" class="img-responsive">
                                 </div>
                             </div>
 
@@ -141,7 +141,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                <div class="item" style="background-image: url(<?php echo base_url()?>application/views/libs/images/slider/bg3.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -153,7 +153,7 @@
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img3.png" class="img-responsive">
+                                    <img src="<?php echo base_url()?>application/views/libs/images/slider/img3.png" class="img-responsive">
                                 </div>
                             </div>
                         </div>
@@ -240,12 +240,12 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                        <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/portfolio/recent/item1.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">Business theme</a> </h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <a class="preview" href="<?php echo base_url()?>application/views/libs/images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -253,12 +253,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                        <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/portfolio/recent/item2.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">Business theme</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <a class="preview" href="<?php echo base_url()?>application/views/libs/images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -266,12 +266,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                        <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/portfolio/recent/item3.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">Business theme </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <a class="preview" href="<?php echo base_url()?>application/views/libs/images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -279,12 +279,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
+                        <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/portfolio/recent/item4.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">Business theme </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <a class="preview" href="<?php echo base_url()?>application/views/libs/images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -292,12 +292,12 @@
                 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
+                        <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/portfolio/recent/item5.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">Business theme</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <a class="preview" href="<?php echo base_url()?>application/views/libs/images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -305,12 +305,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
+                        <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/portfolio/recent/item6.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">Business theme </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <a class="preview" href="<?php echo base_url()?>application/views/libs/images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -318,12 +318,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
+                        <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/portfolio/recent/item7.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">Business theme </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <a class="preview" href="<?php echo base_url()?>application/views/libs/images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -331,12 +331,12 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
+                        <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/portfolio/recent/item8.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">Business theme </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <a class="preview" href="<?php echo base_url()?>application/views/libs/images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -357,7 +357,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services1.png">
+                            <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/services/services1.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">SEO Marketing</h3>
@@ -369,7 +369,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services2.png">
+                            <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/services/services2.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">SEO Marketing</h3>
@@ -381,7 +381,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services3.png">
+                            <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/services/services3.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">SEO Marketing</h3>
@@ -393,7 +393,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services4.png">
+                            <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/services/services4.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">SEO Marketing</h3>
@@ -405,7 +405,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services5.png">
+                            <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/services/services5.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">SEO Marketing</h3>
@@ -417,7 +417,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services6.png">
+                            <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/services/services6.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">SEO Marketing</h3>
@@ -495,7 +495,7 @@
                               <div class="panel-body">
                                   <div class="media accordion-inner">
                                         <div class="pull-left">
-                                            <img class="img-responsive" src="images/accordion1.png">
+                                            <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/accordion1.png">
                                         </div>
                                         <div class="media-body">
                                              <h4>Adipisicing elit</h4>
@@ -582,7 +582,7 @@
                                     <div class="tab-pane fade" id="tab1">
                                         <div class="media">
                                            <div class="pull-left">
-                                                <img class="img-responsive" src="images/tab2.png">
+                                                <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/tab2.png">
                                             </div>
                                             <div class="media-body">
                                                  <h2>Adipisicing elit</h2>
@@ -594,7 +594,7 @@
                                      <div class="tab-pane fade active in" id="tab2">
                                         <div class="media">
                                            <div class="pull-left">
-                                                <img class="img-responsive" src="images/tab1.png">
+                                                <img class="img-responsive" src="<?php echo base_url()?>application/views/libs/images/tab1.png">
                                             </div>
                                             <div class="media-body">
                                                  <h2>Adipisicing elit</h2>
@@ -626,7 +626,7 @@
                         <h2>Testimonials</h2>
                          <div class="media testimonial-inner">
                             <div class="pull-left">
-                                <img class="img-responsive img-circle" src="images/testimonials1.png">
+                                <img class="img-responsive img-circle" src="<?php echo base_url()?>application/views/libs/images/testimonials1.png">
                             </div>
                             <div class="media-body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
@@ -636,7 +636,7 @@
 
                          <div class="media testimonial-inner">
                             <div class="pull-left">
-                                <img class="img-responsive img-circle" src="images/testimonials1.png">
+                                <img class="img-responsive img-circle" src="<?php echo base_url()?>application/views/libs/images/testimonials1.png">
                             </div>
                             <div class="media-body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
@@ -660,11 +660,11 @@
 
             <div class="partners">
                 <ul>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="<?php echo base_url()?>application/views/libs/images/partners/partner1.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="<?php echo base_url()?>application/views/libs/images/partners/partner2.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="<?php echo base_url()?>application/views/libs/images/partners/partner3.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="<?php echo base_url()?>application/views/libs/images/partners/partner4.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="<?php echo base_url()?>application/views/libs/images/partners/partner5.png"></a></li>
                 </ul>
             </div>        
         </div><!--/.container-->
@@ -772,11 +772,10 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="libs/js/jquery.js"></script>
-    <script src="libs/js/bootstrap.min.js"></script>
-    <script src="libs/js/jquery.prettyPhoto.js"></script>
-    <script src="libs/js/jquery.isotope.min.js"></script>
-    <script src="libs/js/main.js"></script>
-    <script src="libs/js/wow.min.js"></script>
+    <script src="<?php echo base_url()?>application/views/libs/js/jquery.js"></script>
+    <script src="<?php echo base_url()?>application/views/libs/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url()?>application/views/libs/js/jquery.prettyPhoto.js"></script>
+    <script src="<?php echo base_url()?>application/views/libs/js/main.js"></script>
+    <script src="<?php echo base_url()?>application/views/libs/js/wow.min.js"></script>
 </body>
 </html>
